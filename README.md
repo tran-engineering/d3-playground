@@ -14,27 +14,29 @@
 * Think about UX: What are good sizes for circles? Min size? Max size?
 
 * Scales in D3js
- * d3.scaleLinear().domain().range()
+ * `d3.scaleLinear().domain().range()`
  * support for numbers, colors
- * d3.extent, d3.max, d3.min
+ * `d3.extent, d3.max, d3.min`
 
 Explain:
 
-* d3.forceSimulation()
- * forces: d3.forceCenter()
- * d3.forceCollision()
- * d3.forceManyBody()
- * d3.forceLinks()
- * d3.forceX()
- * d3.forceY()
- * d3.forceSimulation().on('tick')
+* `d3.forceSimulation()`
+ * forces: `d3.forceCenter()`
+ * `d3.forceCollision()`
+ * `d3.forceManyBody()`
+ * `d3.forceLinks()`
+ * `d3.forceX()`
+ * `d3.forceY()`
+ * `d3.forceSimulation().on('tick')`
 
 Explain:
 
 * How to insert data into DOM
 
 ## Exercise 3 - Basic Mouse interactions
-SELECTION.on('click', d => console.log(d))
+`SELECTION.on('click', d => console.log(d))`
+
+* mouseenter, mouseleave
 
 ## Exercise 4 - Map
 
