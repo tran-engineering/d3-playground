@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+html, body {
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+*:not(i):not(.fa) {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+svg {
+    flex-grow: 1;
+}
+
+.sidebar {
+    overflow: auto;
+    min-width: 15em;
+    background-color: #eee;
+    padding: 1em;
+    box-sizing: border-box;
+}
