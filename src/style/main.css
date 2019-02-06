@@ -19,6 +19,12 @@ svg {
     flex-grow: 1;
 }
 
+path {
+    stroke: #fff;
+    stroke-width: 0.5;
+    fill: #ddf;
+}
+
 .sidebar {
     overflow: auto;
     min-width: 15em;
